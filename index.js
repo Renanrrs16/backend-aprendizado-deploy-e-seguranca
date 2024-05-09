@@ -1,8 +1,9 @@
+require('dotenv').config()
 const express = require('express')
 const { MongoClient, ObjectId } = require('mongodb')
 
 // Preparamos as informacoes ao banco de dados
-const dburl = 'mongodb+srv://admin:21213625A1@cluster0.gg04xsm.mongodb.net'
+const dburl = process.env.DATABASE_URL
 const dbname = 'mongodb-intro-e-implementacao'
 
 // Declaramos a funcao main()
@@ -131,8 +132,8 @@ async function main() {
         res.send('Item deletado com sucesso: ' + id)
     })
 
-    app.listen(5000, function () {
-        console.log('Aplicação rodando em http://localhost:3000')
+    app.listen(3000, function () {
+        console.log('Aplicação rodando em http://localhost:5000')
     })
 }
 
