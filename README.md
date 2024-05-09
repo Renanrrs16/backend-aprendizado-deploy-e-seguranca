@@ -1,2 +1,2 @@
-# backend-aprendizado-deploy-e-seguranca
-Projeto da missão de aprendizado da porfissão Dev Backend Javascript : Deply e Segurança
+# backend-aprendizado-deploy e segurança
+Projeto da missão de aprendizado da porfissão Dev Backend Javascript : Deploy e segurança
